@@ -27,3 +27,5 @@ pom.xml
 /dist/
 /nbdist/
 /.nb-gradle/
+
+bookings.db.log
