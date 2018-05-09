@@ -29,3 +29,5 @@ pom.xml
 /.nb-gradle/
 
 bookings.db.log
+bookings.db.lck
+bookings.db.properties
