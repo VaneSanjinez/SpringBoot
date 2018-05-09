@@ -25,6 +25,7 @@ public class BookingController {
     public List<HotelBooking> getAll(){
         return bookingRepository.findAll();
     }
+
     @RequestMapping(value = "/affordable/{price}", method = RequestMethod.GET)
     public List<HotelBooking> getAffordable(@PathVariable double price){
         return bookingRepository.findByPricePerNightLessThan(price);

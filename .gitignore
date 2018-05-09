@@ -31,3 +31,5 @@ pom.xml
 bookings.db.log
 bookings.db.lck
 bookings.db.properties
+bookings.db.tmp.properties
+bookings.db.tmp.script
